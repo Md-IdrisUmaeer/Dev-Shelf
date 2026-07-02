@@ -178,8 +178,8 @@ const Dashboard = () => {
                             value={sortBy}
                             onChange={(e) => setSortBy(e.target.value)}
                             sx={{
-                                bgcolor: 'background.paper', // Uses your clean theme background pack color
-                                color: 'text.primary',       // Ensures text visibility in dark & light mode
+                                bgcolor: 'background.paper',
+                                color: 'text.primary',
                                 borderRadius: 1,
                                 minWidth: 115,
                                 height: 32,

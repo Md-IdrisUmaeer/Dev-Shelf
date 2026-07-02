@@ -19,7 +19,7 @@ const resourceSchema = new mongoose.Schema({
     },
     imageUrl: {
         type: String,
-        default: "https://via.placeholder.com/150"
+        default: "https://placeholder.com/"
     },
     likes: {
         type: Number,
