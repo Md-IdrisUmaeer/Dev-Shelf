@@ -1,0 +1,26 @@
+devshelf/
+│
+├── backend/                  # Node/Express Backend
+│   ├── config/               # Database connection
+│   │   └── db.js
+│   ├── models/               # Mongoose Schemas
+│   │   └── Resource.js
+│   ├── routes/               # API Endpoints
+│   │   └── resourceRoutes.js
+│   ├── .env                  # Environment variables (secrets)
+│   ├── package.json
+│   └── server.js             # Entry point for backend
+│
+└── frontend/                 # React Frontend (Vite or CRA)
+    ├── public/
+    ├── src/
+    │   ├── components/       # Reusable UI parts (Cards, Navbar)
+    │   │   ├── Navbar.jsx
+    │   │   ├── ResourceCard.jsx
+    │   │   └── HeroSection.jsx
+    │   ├── pages/            # Page layouts
+    │   │   └── Dashboard.jsx
+    │   ├── App.jsx
+    │   └── main.jsx
+    ├── package.json
+    └── vite.config.js
