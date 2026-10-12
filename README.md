@@ -47,7 +47,7 @@ devshelf/
 
 ### 1. Clone the repo
 ```bash
-git clone [Add your repo URL here]
+git clone https://github.com/Md-IdrisUmaeer/Dev-Shelf
 cd devshelf
 ```
 
